@@ -1,0 +1,13 @@
+{
+  "extends": "airbnb",
+  "env": {
+    "browser": true,
+    "node": true,
+    "mocha": true
+  },
+  "rules": {
+        // windows linebreaks when not in production environment
+        "linebreak-style": 0 // ["error", process.env.NODE_ENV === 'prod' ? "unix" : "windows"]
+  }
+}
+
